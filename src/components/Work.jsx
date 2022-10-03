@@ -22,7 +22,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                MERN Application
+                <span className="text-[#5A7DD4]">hii </span>MERN Application
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -43,68 +43,13 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                MERN Application
-              </span>
-              <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://cartmax-shopping.netlify.app/"
+                  href="https://justpaste.it/29rra/pdf"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Vickyarjun/cartmax"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                MERN Application
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://cartmax-shopping.netlify.app/"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Vickyarjun/cartmax"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
-                    Code
+                    Credentials
                   </button>
                 </a>
               </div>
