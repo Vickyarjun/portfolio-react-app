@@ -30,7 +30,7 @@ const Work = () => {
                   rel="noopener noreferrer"
                   href="https://cartmax-shopping.netlify.app/"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
+                  <button className="text-center rounded-lg w-32 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
                     Demo
                   </button>
                 </a>
@@ -39,17 +39,26 @@ const Work = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Vickyarjun/cartmax"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
+                  <button className="text-center rounded-lg w-32 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
                     Code
                   </button>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://justpaste.it/29rra/pdf"
+                  href="https://justpaste.it/4yjc5/pdf"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
+                  <button className="text-center rounded-lg w-32 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
                     Credentials
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://justpaste.it/8v1d2/pdf"
+                >
+                  <button className="text-center rounded-lg w-32 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
+                    Details
                   </button>
                 </a>
               </div>

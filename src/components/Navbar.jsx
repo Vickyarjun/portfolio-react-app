@@ -12,34 +12,36 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <h1 className="text-3xl">
-          Portfo<span className="text-pink-600">lio</span>
+          <Link to="home" spy={true} smooth={true} duration={500}>
+            Portfo<span className="text-pink-600">lio</span>
+          </Link>
         </h1>
       </div>
 
       {/* menu */}
 
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:scale-110 duration-500">
           <Link to="home" spy={true} smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110 duration-500">
           <Link to="about" spy={true} smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110 duration-500">
           <Link to="skills" spy={true} smooth={true} duration={500}>
-            skills
+            skills/Experience
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110 duration-500">
           <Link to="work" spy={true} smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110 duration-500">
           <Link to="contact" spy={true} smooth={true} duration={500}>
             Contact
           </Link>
