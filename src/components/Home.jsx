@@ -3,6 +3,8 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 
 const Home = () => {
+  const URL =
+    'https://drive.google.com/file/d/1FPqdfrvfKnk5gIdQNjTDV3zW_KckWHwP/view';
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* container */}
@@ -12,22 +14,32 @@ const Home = () => {
           VIGNESH
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer.
+          I'm a Frontend Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I’m a Frontend/Full-stack developer specializing in building and
-          designing exceptional digital experiences. Currently, I’m focused on
-          building responsive front-end/full-stack web applications.
+          designing exceptional digital experiences. Seeking a role as a
+          front-end developer in a reputed organization where I can learn new
+          skills, expand my knowledge, and leverage my learnings. Currently, I’m
+          focused on building responsive User interface.
         </p>
         <div>
           <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
-            <Link to="work" spy={true} smooth={true} duration={500}>
-              View Work
-            </Link>
+            <a
+              href="https://drive.google.com/file/d/1FPqdfrvfKnk5gIdQNjTDV3zW_KckWHwP/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View certificate
+            </a>
             <span>
-              <Link to="work" spy={true} smooth={true} duration={500}>
+              <a
+                href="https://drive.google.com/file/d/1FPqdfrvfKnk5gIdQNjTDV3zW_KckWHwP/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <HiArrowNarrowRight className="ml-3" />
-              </Link>
+              </a>
             </span>
           </button>
         </div>

@@ -18,11 +18,11 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am an young aspirant Front end/Full stack developer, who is
-              passionate about building excellent software that improves the
-              lives of those around me. Currently I am looking for a Full time
-              Job opportunity where I can learn new skills, expand my knowledge,
-              and leverage my learnings.
+              I am an young aspirant Front end developer, who is passionate
+              about building excellent software that improves the lives of those
+              around me. Currently I am looking for a Full time Job opportunity
+              where I can learn new skills, expand my knowledge, and leverage my
+              learnings.
             </p>
           </div>
         </div>

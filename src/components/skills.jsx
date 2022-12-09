@@ -32,16 +32,6 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="Node icon" />
-            <p>Node</p>
-          </div>
-
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon" />
-            <p>Mongodb</p>
-          </div>
-
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto"
               src={JavaScript}
@@ -67,6 +57,16 @@ const Skills = () => {
               alt="Bootstrap icon"
             />
             <p>Bootstrap</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="Node icon" />
+            <p>Node</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon" />
+            <p>Mongodb</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
