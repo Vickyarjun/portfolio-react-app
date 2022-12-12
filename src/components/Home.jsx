@@ -1,10 +1,10 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 const Home = () => {
-  const URL =
-    'https://drive.google.com/file/d/1FPqdfrvfKnk5gIdQNjTDV3zW_KckWHwP/view';
+  // const URL =
+  //   'https://drive.google.com/file/d/1FPqdfrvfKnk5gIdQNjTDV3zW_KckWHwP/view';
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* container */}
