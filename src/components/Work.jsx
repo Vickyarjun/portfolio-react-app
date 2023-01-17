@@ -28,7 +28,7 @@ const Work = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://cartmax-shopping.netlify.app/"
+                  href="https://cartmax-shopping-app.onrender.com/"
                 >
                   <button className="text-center rounded-lg w-32 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7f95f1] duration-300">
                     Demo
